@@ -31,5 +31,5 @@ All options are optional.
 
 ## License
 
-View the [LICENSE](https://github.com/AppPress/node-datadog-mongodb/blob/master/LICENSE) file.
+node-datadog-mongodb is licensed under the MIT license. View the [LICENSE](https://github.com/AppPress/node-datadog-mongodb/blob/master/LICENSE) file.
 
