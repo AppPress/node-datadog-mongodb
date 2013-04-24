@@ -1,0 +1,21 @@
+{
+	"name": "datadog-mongodb",
+	"version": "0.0.1",
+	"description": "MongoDB query performance monitoring with DataDog",
+	"main": "lib/index.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/AppPress/node-datadog-mongodb.git"
+	},
+	"keywords": [
+		"MongoDB",
+		"DataDog"
+	],
+	"author": "App Press",
+	"license": "MIT",
+	"readmeFilename": "README.md",
+	"dependencies": {
+		"traceback": "0.3.0",
+		"node-dogstatsd": "0.0.4"
+	}	
+}
