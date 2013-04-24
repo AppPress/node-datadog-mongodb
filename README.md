@@ -16,10 +16,10 @@ var mongoose = require("mongoose");
 require("datadog-mongodb")(mongoose.mongo);
 ```
 
-Or reusing `node-dogstatsd` client
+Or reusing a `node-dogstatsd` client
 
 ```javascript
-var mongoDb = require("mongodb");
+var statsD = new require("node-dogstatsd").StatsD();
 require("datadog-mongodb")(mongoDb, {dogstatsd: statsD});
 ```
 
